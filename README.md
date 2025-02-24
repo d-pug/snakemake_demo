@@ -1,6 +1,7 @@
 # Snakemake Demo
 
 By: Viktoria Haghani
+
 Date: 2025-02-25
 
 ## Table of Contents
@@ -14,11 +15,11 @@ Date: 2025-02-25
 	* [Depencency Mapping](#dependency-mapping)
 	* [Snakemake's "Memory"](#snakemakes-memory)
 	* [Error Handling](#error-handling)
-	* [Improving the Rule}(#improving-the-rule)
+	* [Improving the Rule](#improving-the-rule)
 * [Directory Organization](#directory-organization)
 * [Constructing the Workflow](#constructing-the-workflow)
 * [Rule All](#rule-all)
-* [Running the Workflow(#running-the-workflow)
+* [Running the Workflow](#running-the-workflow)
 * [Resources](#resources)
 
 ## Introduction to Snakemake
@@ -29,7 +30,7 @@ Snakemake is a powerful workflow management system written in Python that enable
 * You can integrate Python code in or out of the rule blocks
 * You can execute shell commands
 * It can manage all associated dependencies and ensure tasks are executed in the correct order
-* One of its biggest strengths in in parallelization
+* One of its biggest strengths is parallelization
 * It can manage and track SLURM submissions 
 
 I can keep going on, but generally speaking, Snakemake is a very powerful tool that doesn't take too long to get the hang of if you're already familiar with Python.
